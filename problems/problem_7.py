@@ -24,5 +24,4 @@ def subarray_sum(nums: list[int], k: int) -> int:
         
     return count
 
-print(subarray_sum([1, 1, 1], 2))
-print(subarray_sum([1, 2, 3], 3))
+
