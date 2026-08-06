@@ -21,7 +21,11 @@ def group_anagrams(strs: list[str]) -> list[list[str]]:
     anagram_map = collections.defaultdict(list)
     
     for s in strs:
-        key = sorted(s)
+        key = tuple(sorted(s))
         anagram_map[key].append(s)
         
     return list(anagram_map.values())
+
+print(group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
+print(group_anagrams([""]))
+print(group_anagrams(["a"]))
