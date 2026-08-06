@@ -26,6 +26,4 @@ def group_anagrams(strs: list[str]) -> list[list[str]]:
         
     return list(anagram_map.values())
 
-print(group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
-print(group_anagrams([""]))
-print(group_anagrams(["a"]))
+
