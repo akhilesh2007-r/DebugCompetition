@@ -27,5 +27,3 @@ def merge_intervals(intervals: list[list[int]]) -> list[list[int]]:
             
     return merged
 
-print(merge_intervals([[1, 3], [2, 6], [8, 10], [15, 18]]))
-print(merge_intervals([[1, 4], [4, 5]]))
