@@ -43,6 +43,3 @@ def decode_string(s: str) -> str:
             
     return res
 
-print(decode_string("3[a]2[bc]"))
-print(decode_string("3[a2[c]]"))
-print(decode_string("2[abc]3[cd]ef"))
