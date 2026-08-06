@@ -50,5 +50,4 @@ def three_sum(nums: list[int]) -> list[list[int]]:
             
     return res
 
-print(three_sum([-1, 0, 1, 2, -1, -4]))
-print(three_sum([]))
+
