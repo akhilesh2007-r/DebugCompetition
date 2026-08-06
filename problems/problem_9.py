@@ -18,6 +18,10 @@ def find_anagrams(s: str, p: str) -> list[int]:
     The substring with start index = 2 is "ab", which is an anagram of "ab".
     """
     ns, np = len(s), len(p)
+
+    if np == 0:
+        return []
+    
     if ns < np:
         return []
         
