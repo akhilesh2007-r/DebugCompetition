@@ -31,8 +31,3 @@ def longest_substring(s: str) -> int:
         res = max(res,r - l + 1)
         
     return res
-
-
-# print(longest_substring("abcabcbb"))  
-# print(longest_substring("bbbbb"))
-# print(longest_substring("pwwkew"))    
