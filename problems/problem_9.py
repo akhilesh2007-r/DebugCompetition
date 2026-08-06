@@ -49,7 +49,5 @@ def find_anagrams(s: str, p: str) -> list[int]:
             
     return res
 
-print(find_anagrams("cbaebabacd", "abc"))
-print(find_anagrams("abab", "ab"))
 
 
